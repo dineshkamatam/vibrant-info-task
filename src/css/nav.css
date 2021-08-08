@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  background-color: rgb(205, 240, 243);
+  border-bottom: 2px solid #ccc;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 12px 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.logo h1 {
+  padding: 3px 15px;
+  color: rgb(29, 29, 105);
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

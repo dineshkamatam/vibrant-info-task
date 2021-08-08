@@ -1,0 +1,46 @@
+.container {
+  background-color: rgb(221, 245, 245);
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin: 30px;
+}
+.card-body {
+  width: auto;
+  height: 300px;
+  background-color: rgb(193, 225, 230);
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(128, 126, 126);
+}
+.card-data {
+  height: 230px;
+}
+.card-data h2 {
+  background-color: rgb(136, 202, 250);
+  text-align: start;
+  text-transform: capitalize;
+  padding: 10px;
+  color: rgb(14, 90, 231);
+}
+.card-data p {
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  background-color: rgb(105, 105, 240);
+  color: rgb(214, 218, 221);
+  padding: 10px 15px;
+  text-decoration: none;
+}
